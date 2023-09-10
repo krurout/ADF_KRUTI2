@@ -1,0 +1,9 @@
+{
+	"name": "ADF-KRUTI-ACCOUNT",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5b01cd4c-b352-49b7-8c02-88f757e5741c",
+		"tenantId": "5a9d96b3-d188-4456-8122-d5c634c3148e"
+	}
+}
