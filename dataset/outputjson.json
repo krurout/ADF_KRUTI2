@@ -1,23 +1,19 @@
 {
-	"name": "OUTPUTCSVBLOB",
+	"name": "outputjson",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureBlobStorage",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
-		"type": "DelimitedText",
+		"type": "Json",
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "kruit",
+				"fileName": "diyorket.json",
 				"container": "target"
-			},
-			"columnDelimiter": ",",
-			"escapeChar": "\\",
-			"firstRowAsHeader": true,
-			"quoteChar": "\""
+			}
 		},
-		"schema": []
+		"schema": {}
 	}
 }
